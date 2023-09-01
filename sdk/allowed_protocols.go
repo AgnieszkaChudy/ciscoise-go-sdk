@@ -31,6 +31,7 @@ type ResponseAllowedProtocolsGetAllowedProtocolByNameAllowedProtocols struct {
 	ProcessHostLookup         *bool                                                                    `json:"processHostLookup,omitempty"`         //
 	AllowPapAscii             *bool                                                                    `json:"allowPapAscii,omitempty"`             //
 	AllowChap                 *bool                                                                    `json:"allowChap,omitempty"`                 //
+	FiveG                     *bool                                                                    `json:"fiveG,omitempty"`                 //
 	AllowMsChapV1             *bool                                                                    `json:"allowMsChapV1,omitempty"`             //
 	AllowMsChapV2             *bool                                                                    `json:"allowMsChapV2,omitempty"`             //
 	AllowEapMd5               *bool                                                                    `json:"allowEapMd5,omitempty"`               //
@@ -141,6 +142,7 @@ type ResponseAllowedProtocolsGetAllowedProtocolByIDAllowedProtocols struct {
 	ProcessHostLookup         *bool                                                                  `json:"processHostLookup,omitempty"`         //
 	AllowPapAscii             *bool                                                                  `json:"allowPapAscii,omitempty"`             //
 	AllowChap                 *bool                                                                  `json:"allowChap,omitempty"`                 //
+	FiveG                     *bool                                                                  `json:"fiveG,omitempty"`                 //
 	AllowMsChapV1             *bool                                                                  `json:"allowMsChapV1,omitempty"`             //
 	AllowMsChapV2             *bool                                                                  `json:"allowMsChapV2,omitempty"`             //
 	AllowEapMd5               *bool                                                                  `json:"allowEapMd5,omitempty"`               //
@@ -320,6 +322,7 @@ type RequestAllowedProtocolsUpdateAllowedProtocolByIDAllowedProtocols struct {
 	ProcessHostLookup         *bool                                                                    `json:"processHostLookup,omitempty"`         //
 	AllowPapAscii             *bool                                                                    `json:"allowPapAscii,omitempty"`             //
 	AllowChap                 *bool                                                                    `json:"allowChap,omitempty"`                 //
+	FiveG                     *bool                                                                    `json:"fiveG,omitempty"`                 //
 	AllowMsChapV1             *bool                                                                    `json:"allowMsChapV1,omitempty"`             //
 	AllowMsChapV2             *bool                                                                    `json:"allowMsChapV2,omitempty"`             //
 	AllowEapMd5               *bool                                                                    `json:"allowEapMd5,omitempty"`               //
@@ -423,6 +426,7 @@ type RequestAllowedProtocolsCreateAllowedProtocolAllowedProtocols struct {
 	ProcessHostLookup         *bool                                                                `json:"processHostLookup,omitempty"`         //
 	AllowPapAscii             *bool                                                                `json:"allowPapAscii,omitempty"`             //
 	AllowChap                 *bool                                                                `json:"allowChap,omitempty"`                 //
+	FiveG                     *bool                                                                `json:"fiveG,omitempty"`                 //
 	AllowMsChapV1             *bool                                                                `json:"allowMsChapV1,omitempty"`             //
 	AllowMsChapV2             *bool                                                                `json:"allowMsChapV2,omitempty"`             //
 	AllowEapMd5               *bool                                                                `json:"allowEapMd5,omitempty"`               //
