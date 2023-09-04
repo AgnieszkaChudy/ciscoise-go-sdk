@@ -362,8 +362,8 @@ type RequestAllowedProtocolsUpdateAllowedProtocolByIDAllowedProtocolsPeap struct
 
 type RequestAllowedProtocolsUpdateAllowedProtocolByIDAllowedProtocolsEapFast struct {
 	AllowEapFastEapMsChapV2                                        *bool  `json:"allowEapFastEapMsChapV2,omitempty"`                                        //
-	AllowEapFastEapMsChapV2PwdChange                               *bool  `json:"allowEapFastEapMsChapV2PwdChange,omitempty"`                               // The allowEapFastEapMsChapV2PwdChange is required only if allowEapFastEapMsChapV2 is true, otherwise it must be ignored
-	AllowEapFastEapMsChapV2PwdChangeRetries                        *int   `json:"allowEapFastEapMsChapV2PwdChangeRetries,omitempty"`                        // The allowEapFastEapMsChapV2PwdChangeRetries is required only if eapTtlsEapMsChapV2 is true, otherwise it must be ignored. Valid range is 0-3
+	AllowEapFastEapMsChapV2PwdChange                               *bool  `json:"allowEapFastEapMsChapV2PwdChange"`                               // The allowEapFastEapMsChapV2PwdChange is required only if allowEapFastEapMsChapV2 is true, otherwise it must be ignored
+	AllowEapFastEapMsChapV2PwdChangeRetries                        *int   `json:"allowEapFastEapMsChapV2PwdChangeRetries"`                        // The allowEapFastEapMsChapV2PwdChangeRetries is required only if eapTtlsEapMsChapV2 is true, otherwise it must be ignored. Valid range is 0-3
 	AllowEapFastEapGtc                                             *bool  `json:"allowEapFastEapGtc,omitempty"`                                             //
 	AllowEapFastEapGtcPwdChange                                    *bool  `json:"allowEapFastEapGtcPwdChange,omitempty"`                                    // The allowEapFastEapGtcPwdChange is required only if allowEapFastEapGtc is true, otherwise it must be ignored
 	AllowEapFastEapGtcPwdChangeRetries                             *int   `json:"allowEapFastEapGtcPwdChangeRetries,omitempty"`                             // The allowEapFastEapGtcPwdChangeRetries is required only if allowEapFastEapGtc is true, otherwise it must be ignored. Valid range is 0-3
